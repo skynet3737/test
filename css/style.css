@@ -1,3 +1,4 @@
+/* Переменные */
 :root {
     --bg-color: #FFFFFF;
     --blue: #2196F3;
@@ -10,12 +11,26 @@
     --footer-address: rgba(255, 255, 255, 0.6);
 }
 
+
+/* Глобальные стили */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-color);
     background-color: var(--bg-color);
+}
+
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -25,6 +40,29 @@ a {
 ul {
     list-style: none;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
 
 .title {
 font-weight: 700;
@@ -49,6 +87,7 @@ color: var(--blue);
 }
 
 .logo-header {
+    margin-right: 93px;
     color: var(--logo-color);
 }
 
@@ -63,7 +102,31 @@ color: var(--blue);
     color: var(--blue);
 }
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-main {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-item + .header-item {
+    margin-left: 50px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
 .link {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -77,7 +140,19 @@ color: var(--second-color);
     color: var(--blue);
 }
 
+.header-cont {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact-item + .contact-item {
+    margin-left: 50px;
+}
+
 .contacts {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
