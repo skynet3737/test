@@ -1,0 +1,225 @@
+:root {
+    --bg-color: #FFFFFF;
+    --blue: #2196F3;
+    --btn-active: #188CE8;
+    --primary-color: #757575;
+    --second-color: #212121;
+    --logo-color: #000000;
+    --bg-second: #F5F4FA;
+    --bg-footer: #2F303A;
+    --footer-address: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-color);
+}
+
+
+/* Логотип */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--blue);
+
+}
+
+.logo-header {
+    color: var(--logo-color);
+}
+
+.logo-footer {
+    color: var(--bg-color);
+}
+
+
+/* Навігація */
+
+.link.current {
+    color: var(--blue);
+}
+
+.link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--second-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--blue);
+}
+
+.contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--primary-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--blue);
+}
+
+
+
+/* Герой */
+
+.main-text {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--bg-color);
+}
+
+.button {
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+
+color: var(--bg-color);
+background-color: var(--blue);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--btn-active);
+}
+
+
+/* Наши приимущества */
+
+.subtitle {
+font-size: 14px;
+line-height: 1.14;
+
+color: var(--second-color);
+}
+
+.text {
+line-height: 1.71;
+}
+
+
+/* Наша команда */
+
+.command {
+    background-color: var(--bg-second);
+}
+
+.caption {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--second-color);
+}
+
+.command-text {
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+
+/* Подвал сайта */
+
+.footer {
+    background-color: var(--bg-footer);
+}
+
+.footer-address .address {
+font-style: normal;
+line-height: 1.71;
+color: var(--bg-color);
+}
+
+.footer-address .address:hover,
+.footer-address .address:focus {
+    color: var(--blue);
+}
+
+.footer-address .link {
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-address);
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+    color: var(--blue);
+}
+
+
+/* Портфолио */
+/* Кнопки в портфолио */
+
+.btn {
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--second-color);
+background-color: var(--bg-second);
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--bg-color);
+    background-color: var(--blue);
+}
+
+
+/* Примеры работ */
+
+.work-title {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--second-color);
+}
+
+.work-text {
+font-size: 16px;
+line-height: 1.88;
+}
