@@ -19,6 +19,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-color);
+
     background-color: var(--bg-color);
 }
 
@@ -65,12 +66,14 @@ ul {
  }
 
 .title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-color);
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
 }
 
 
@@ -78,11 +81,10 @@ color: var(--second-color);
 
 .logo {
     font-family: 'Raleway', sans-serif;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-color: var(--blue);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--blue);
 
 }
 
@@ -127,12 +129,12 @@ color: var(--blue);
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 
-color: var(--second-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
 }
 
 .link:hover,
@@ -153,12 +155,12 @@ color: var(--second-color);
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 
-color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
 }
 
 .contacts:hover,
@@ -168,29 +170,43 @@ color: var(--primary-color);
 
 
 
-/* Герой */
+/* Герой на главной*/
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+
+    background-color: var(--bg-footer);
+}
 
 .main-text {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 696px;
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: var(--bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bg-color);
 }
 
 .button {
-    font-family: 'Roboto';
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
+    padding: 10px 32px;
 
-color: var(--bg-color);
-background-color: var(--blue);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--bg-color);
+
+    border: none;
+    border-radius: 4px;
+    background-color: var(--blue);
 }
 
 .button:hover,
@@ -201,15 +217,43 @@ background-color: var(--blue);
 
 /* Наши приимущества */
 
-.subtitle {
-font-size: 14px;
-line-height: 1.14;
+.main-subtitle {
+    display: flex;
+}
 
-color: var(--second-color);
+.main-item {
+    width: 270px;
+}
+
+.main-item + .main-item {
+    margin-left: 30px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--second-color);
 }
 
 .text {
 line-height: 1.71;
+}
+
+
+/* Спецификация */
+
+.main-section {
+    padding-top: 0;
+}
+
+.img-list {
+    display: flex;
+}
+
+.img-item + .img-item {
+    margin-left: 30px;
 }
 
 
@@ -219,18 +263,46 @@ line-height: 1.71;
     background-color: var(--bg-second);
 }
 
+.command-list {
+    display: flex;
+}
+
+.command-item {
+    width: 270px;
+
+    background-color: var(--bg-color);
+}
+
+.command-item + .command-item {
+    margin-left: 30px;
+}
+
+.command-image {
+    margin-bottom: 30px;
+}
+
+.command-title {
+    margin-bottom: 50px;
+}
+
 .caption {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: var(--second-color);
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--second-color);
 }
 
 .command-text {
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 
